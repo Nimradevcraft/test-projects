@@ -1,10 +1,9 @@
 .nav-bar p {
     box-sizing: border-box;
     display: block;
-    font-family: Raleway, sans-serif;
+    font-weight: 100;
     font-size: 18px;
     height: 43px;
-    line-height: 27px;
     background-color: black;
     color: white;
     text-align: right;
@@ -25,6 +24,10 @@
 .parent .child1 {
     flex: 2.2;
     margin-top: 40px;
+}
+.font-family-100{
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
 }
 
 .side-navbar {
@@ -66,7 +69,6 @@
 
 .side-navbar-content {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
     margin-left: 10px;
 }
 
@@ -85,7 +87,7 @@
     background-color: rgb(75, 149, 173);
     color: white;
     padding: 10px;
-    width: 116%;
+    width: 110%;
 }
 
 .section2 a {
@@ -114,7 +116,7 @@
 .section3 {
     background-color: white;
     color: black;
-    width: 124%;
+    width: 110%;
 
 }
 
@@ -126,7 +128,7 @@
 
 .section3-icons:hover {
     background-color: rgb(173, 167, 167);
-    width: 93%;
+    width: 100%;
 }
 
 .section3 a:hover {
@@ -153,9 +155,9 @@
 }
 
 .dashboard-icon h3 {
-    font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif; 
 }
 
 .dashboard-icon i {
@@ -198,7 +200,6 @@
 
 .content-section1-red h4 {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
 }
 
 .content-section1-blue {
@@ -213,7 +214,6 @@
 
 .content-section1-blue h4 {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
 }
 
 .content-section1-green {
@@ -228,7 +228,6 @@
 
 .content-section1-green h4 {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
 }
 
 .content-section1-yellow {
@@ -243,7 +242,6 @@
 
 .content-section1-yellow h4 {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
 }
 
 /* ------content-section2--------- */
@@ -261,6 +259,12 @@
 
 .item1 img {
     width: 350px;
+}
+.item1 h3{
+    font-weight: 100;
+}
+.item2 h3{
+    font-weight: 100;
 }
 
 .content-section2 .item2 {
