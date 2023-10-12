@@ -1,0 +1,356 @@
+
+/* Main Container CSS - Starts */
+.main-con {
+  display: flex;
+}
+.main-con .side-navbar {
+  flex: 2.3;
+}
+.main-con .page-content {
+  flex: 8;
+  background-color: rgb(241, 238, 238);
+  margin-top: 30px;
+  padding-top: 22px;
+}
+
+.page-content h3 {
+  font-size: 19px;
+}
+
+.dashboard-icon {
+  display: inline-flex;
+  box-sizing: border-box;
+  margin-bottom: -20px;
+}
+
+.dashboard-icon h3 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+
+.dashboard-icon i {
+  margin: 10px;
+  margin-top: 20px;
+  line-height: 18px;
+  display: inline-block;
+}
+
+.content-section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 16px;
+}
+
+.content-section1-icon {
+  display: flex;
+}
+
+.content-section1-icon .icons {
+  font-size: 50px;
+  flex: 3;
+}
+
+.content-section1-icon .icons-h3 {
+  flex: 1;
+}
+
+.content-section1-red {
+  background-color: rgb(241, 61, 61);
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
+  flex: 1;
+  height: 100px;
+  color: white;
+}
+
+.content-section1-red h4 {
+  font-size: 20px;
+}
+
+.content-section1-blue {
+  background-color: rgb(61, 175, 241);
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
+  flex: 1;
+  color: white;
+  height: 100px;
+}
+
+.content-section1-blue h4 {
+  font-size: 20px;
+}
+
+.content-section1-green {
+  background-color: rgb(47, 133, 114);
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
+  flex: 1;
+  color: white;
+  height: 100px;
+}
+
+.content-section1-green h4 {
+  font-size: 20px;
+}
+
+.content-section1-yellow {
+  background-color: rgb(202, 144, 20);
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
+  flex: 1;
+  color: white;
+  height: 100px;
+}
+
+.content-section1-yellow h4 {
+  font-size: 20px;
+}
+
+/* ------content-section2--------- */
+.content-section2 {
+  display: flex;
+  margin: 20px;
+  padding-bottom: 10px;
+}
+
+.content-section2,
+.item1 {
+  flex: 1;
+}
+
+.item1 img {
+  width: 350px;
+}
+
+.item1 h3 {
+  font-weight: 400;
+}
+
+.item2 h3 {
+  font-weight: 400;
+}
+
+.content-section2 .item2 {
+  margin-left: 10px;
+  width: 100%;
+  flex: 2;
+}
+
+.content-section2 .item2-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(231, 225, 225);
+}
+
+.item2-table th,
+td {
+  text-align: left;
+  padding: 8px;
+  width: 100%;
+}
+
+.item2-table tr:nth-child(odd) {
+  background-color: #fcfbfb;
+}
+
+/* --------content-section3------- */
+.content-section3 {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.content-section3 h3 {
+  margin: 20px;
+  margin-left: -1px;
+}
+
+.content-section3 p {
+  font-size: 17px;
+}
+
+.content-section3 .main-con-div {
+  background-color: gray;
+  margin: 20px;
+  margin-left: -1px;
+}
+
+.content-section3 .child-div1 {
+  background-color: green;
+  width: 25%;
+  height: 30px;
+  text-align: center;
+}
+
+.content-section3 .child-div2 {
+  background-color: rgb(255, 208, 0);
+  width: 50%;
+  height: 30px;
+  text-align: center;
+}
+
+.content-section3 .child-div3 {
+  background-color: rgba(255, 0, 0, 0.836);
+  width: 75%;
+  height: 30px;
+  text-align: center;
+}
+
+/* ----------content-section4----------- */
+.content-section4 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.content-section4 .content-section4-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px ridge rgb(175, 171, 171);
+  background-color: rgb(231, 225, 225);
+}
+
+.content-section4-table th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.content-section4-table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.content-section4-table tr:hover {
+  background-color: white;
+}
+
+.content-section4 .button {
+  background-color: #616161;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 17%;
+}
+
+.content-section4 button:hover {
+  background-color: azure;
+  color: black;
+}
+
+/* -------content-section5------- */
+.content-section5 {
+  margin: 20px;
+}
+
+.content-section5-div {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  width: 100%;
+  background-color: white;
+  flex-wrap: wrap;
+  box-shadow: 2px gray;
+}
+
+.content-section5-div img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.content-section5 {
+  margin: 20px;
+}
+
+.content-section5-div {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-section5-main-div {
+  margin: 20px;
+}
+
+.content-section5-div p {
+  margin: 15px;
+}
+
+.content-section5-div img {
+  border-radius: 50%;
+  width: 50px;
+  size: 50px;
+  margin: 15px;
+}
+
+/* -------content-section6-------- */
+.content-section6 {
+  margin: 20px;
+  /* background-color: #f2f2f2; */
+}
+
+.content-section6-div {
+  display: flex;
+  flex-direction: row;
+  margin: -10px;
+}
+
+.content-section6-div .john {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-section6-div p {
+  margin-left: 60px;
+}
+
+.content-section6-div img {
+  border-radius: 50%;
+  width: 100px;
+  height: 80px;
+}
+
+.content-section7 {
+  display: flex;
+  background-color: gray;
+  color: white;
+  /* margin: 20px; */
+}
+
+.content-section7 p {
+  font-size: 17px;
+  display: flex;
+}
+
+.content-section7-div {
+  flex: 1;
+  margin: 20px;
+}
+
+.content-section7-div1 h2 {
+  border-bottom: solid green;
+}
+
+.content-section7-div2 h2 {
+  border-bottom: solid red;
+}
+
+.content-section7-div3 h2 {
+  border-bottom: solid yellow;
+}
+
+footer {
+  margin-left: 30px;
+}
