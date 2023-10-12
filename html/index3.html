@@ -7,8 +7,8 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400,900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;900&display=swap"
+        rel="stylesheet">
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 
@@ -22,7 +22,7 @@
     <title>index3</title>
 </head>
 
-<body>
+<body class="font-family-100">
     <header>
         <div class="nav-bar">
             <p>Logo</p>
@@ -35,44 +35,40 @@
             <div class="side-navbar">
 
                 <div class="section1">
-                    <img src="./../asset/images/avatar2.png" alt="">
-
+                    <div class="section1-image">
+                        <img src="./../asset/images/avatar2.png" alt="">
+                    </div>
                     <div class="section1-icons ">
-                        <p>Welcome, <strong> Mike </strong></p>
+                        <p>Welcome, <span style="font-weight: 600;"> Mike </span></p>
                         <div class="icons">
-                            <i class="fa-solid fa-envelope"></i>
-                            <i class="fa-solid fa-user"></i>
-                            <i class="fa-solid fa-gear"></i>
+                            <i class="fa-solid fa-envelope icon icon1" style="font-size: 15px;"></i>
+                            <i class="fa-solid fa-user icon icon2" style="font-size: 13px;"></i>
+                            <i class="fa-solid fa-gear icon icon3" style="font-size: 13px;"></i>
                         </div>
                     </div>
                 </div>
-                <hr>
+                <span style="border-bottom: 1px solid gainsboro;"></span>
 
-                <div class="side-navbar-content font-family-100">
+                <div class="side-navbar-content ">
                     <p>Dashboard</p>
                 </div>
 
-                <div class="section2 font-family-100">
-                    <i class="fa-solid fa-people-group"></i>
-                    <a href="#"> &nbsp; Overview</a>
+                <div class="section2 ">
+                    <i class="fa fa-users" style="font-size: 15px;"></i>
+                    <a href="#">  Overview</a>
 
                 </div>
 
-                <div class="section3 font-family-100">
+                <div class="section3 ">
 
-                    <div class="section3-icons"> <i class="fa-solid fa-eye"></i> &nbsp; <a href="#">View</a></div>
-                    <div class="section3-icons "> <i class="fa-solid fa-people-group"></i> &nbsp; <a
-                            href="#">Traffic</a>
-                    </div>
-                    <div class="section3-icons"> <i class="fa-regular fa-circle-dot"></i> &nbsp; <a href="#">Geo</a>
-                    </div>
-                    <div class="section3-icons"> <i class="fa-solid fa-gem"></i> &nbsp; <a href="#">Orders</a></div>
-                    <div class="section3-icons"> <i class="fa-solid fa-bell"></i> &nbsp; <a href="#">News</a></div>
-                    <div class="section3-icons"> <i class="fa-solid fa-building-columns"></i> &nbsp; <a
-                            href="#">General</a></div>
-                    <div class="section3-icons"> <i class="fa-solid fa-circle-xmark"></i>&nbsp; <a href="#">History</a>
-                    </div>
-                    <div class="section3-icons"> <i class="fa-solid fa-gear"></i> &nbsp; <a href="#">Setting</a></div>
+                    <div class="section3-icons"> <i class="fa fa-eye"></i> <a href="#">View</a></div>
+                    <div class="section3-icons "> <i class="fa fa-users"></i> <a href="#">Traffic</a></div>
+                    <div class="section3-icons"> <i class="fa fa-bullseye"></i>  <a href="#">Geo</a></div>
+                    <div class="section3-icons"> <i class="fa fa-gem"></i>  <a href="#">Orders</a></div>
+                    <div class="section3-icons"> <i class="fa fa-bell"></i>  <a href="#">News</a></div>
+                    <div class="section3-icons"> <i class="fa fa-bank"></i>  <a href="#">General</a></div>
+                    <div class="section3-icons"> <i class="fa fa-history"></i> <a href="#">History</a> </div>
+                    <div class="section3-icons"> <i class="fa fa-cog"></i>  <a href="#">Setting</a></div>
                 </div>
             </div>
         </div>
@@ -82,7 +78,7 @@
                 <i class="fa fa-dashboard"></i>
                 <h3> My Dashboard</h3>
             </div>
-            <div class="content-section1 font-family-100">
+            <div class="content-section1 ">
                 <div class="content-section1-red">
                     <div class="content-section1-icon">
                         <i class="fa fa-comment w3-xxxlarge icons"></i>
@@ -112,7 +108,7 @@
                     <h4>Users</h4>
                 </div>
             </div>
-            <div class="content-section2 font-family-100">
+            <div class="content-section2 ">
                 <div class="item1">
 
                     <h3>Region</h3>
@@ -123,9 +119,11 @@
                         <h3>Feeds</h3>
                         <div class="tr1 ">
                             <tr>
-                                <td> <i class="fa fa-user" style="color: rgb(43, 78, 235);"></i>
+                                <td>
+                                    <i class="fa fa-user" style="color: rgb(43, 78, 235);"></i>
                                     &nbsp; New record, over
-                                    90 views. </td>
+                                    90 views.
+                                </td>
                                 <td>10min</td>
                             </tr>
                         </div>
@@ -165,10 +163,10 @@
                     </table>
                 </div>
             </div>
-            <div class="content-section3 font-family-100">
+            <div class="content-section3 ">
                 <h3>General State</h3>
 
-                <p class="font-family-100">New Visitors</p>
+                <p class="">New Visitors</p>
                 <div class="parent-div">
                     <div class="child-div1">
                         <p>+25%</p>
@@ -193,7 +191,7 @@
 
                 </div>
             </div>
-            <div class="content-section4 font-family-100">
+            <div class="content-section4 ">
 
                 <table class="content-section4-table">
                     <p>Countries</p>
@@ -229,7 +227,7 @@
 
             </div>
             <div class="content-section5">
-                <p class="font-family-100">Recent Users</p>
+                <p class="">Recent Users</p>
                 <div class="content-section5-main-div">
                     <div class="content-section5-div">
                         <img src="./../asset/images/mike.png" alt="">
@@ -245,7 +243,7 @@
                     </div>
                 </div>
             </div>
-            <section class="content-section6 font-family-100">
+            <section class="content-section6 ">
                 <div>
                     <p>Recent Comments</p>
                 </div>
@@ -268,7 +266,7 @@
                 </div>
             </section>
 
-            <div class="content-section7 font-family-100">
+            <div class="content-section7 ">
                 <div class="content-section7-div content-section7-div1">
                     <h2>Demographic</h2>
                     <p>Language</p>
@@ -288,7 +286,7 @@
                     <p>Geo</p>
                 </div>
             </div>
-            <footer class="font-family-100">
+            <footer>
                 <p> <strong> FOOTER</strong></p>
                 <p>Powered by w3.css</p>
             </footer>

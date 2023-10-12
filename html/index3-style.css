@@ -1,17 +1,17 @@
 .nav-bar p {
     box-sizing: border-box;
     display: block;
-    font-weight: 100;
     font-size: 18px;
     height: 43px;
     background-color: black;
     color: white;
     text-align: right;
     margin: 0;
-    padding: 14px 20px;
+    padding: 12px 16px;
     position: fixed;
     width: 100%;
 }
+
 
 .parent {
     display: flex;
@@ -19,15 +19,18 @@
     margin: 0;
     padding: 0;
 
+
 }
 
 .parent .child1 {
-    flex: 2.2;
+    flex: 2.3;
     margin-top: 40px;
+    /* width: 300px; */
 }
-.font-family-100{
+
+.font-family-100 {
     font-family: "Raleway", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .side-navbar {
@@ -42,88 +45,111 @@
 
 .section1 {
     display: flex;
-    margin: 20px;
+    margin: 15px;
+    color: black;
 }
 
-.section1 img {
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+.section1 .section1-image img {
     box-sizing: border-box;
-    display: inline;
-    height: 45.9062px;
-    line-height: 22.5px;
-    margin-right: 16px;
     vertical-align: middle;
     width: 46px;
+    border-radius: 50%;
+    margin-top: 11px;
+    margin-left: 1px;
 }
 
 .section1 .section1-icons {
-    margin-left: 30px;
+    margin-left: 44px;
+    font-size: 15px;
+    margin-top: -1px;
 }
 
 .section1 .section1-icons .icons {
-    word-spacing: 30px;
+    word-spacing: 60px;
+    font-size: 14px;
+    margin-top: -16px;
+    color: black;
+    display: flex;
+    text-align: center;
+}
+.section1 .section1-icons .icon {
+    flex: 1;
+    padding: 15px;
+    cursor: pointer;
+}
+.section1 .section1-icons .icon1:hover {
+    background-color: #dbdada;
 }
 
+.section1 .section1-icons .icon2:hover {
+    background-color: #dbdada;}
+
+.section1 .section1-icons .icon3:hover {
+    background-color: #dbdada;}
+
 .side-navbar-content {
-    font-size: 20px;
-    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 16px;
+    padding-bottom:0;
+
 }
 
 
 /* -----------section2----------- */
-.section2 {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .section2 {
     display: inline;
-}
-
-.section2 {
-    background-color: rgb(75, 149, 173);
-    color: white;
-    padding: 10px;
-    width: 110%;
+    flex-direction: column;
+    color: #fff;
+    background-color: #2196F3;
+    padding: 10px 16px;
+    width: 107%;
+    cursor: pointer;
+    margin-top: -5px;
 }
 
 .section2 a {
     text-decoration: none;
-    font-size: 19px;
+    font-size: 15px;
     color: white;
+    margin-left: 4px;
 }
 
 .section2:hover {
     background-color: rgb(173, 167, 167);
+    color: black;
+}
+.section2 a:hover {
+    background-color: rgb(173, 167, 167);
+    color: black;
 }
 
 /* --------section3--------- */
 .section3 {
-    display: flex;
-    flex-direction: column;
-}
-
-.section3-icons {
     display: inline;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 110%;
+    
+}
+.section3-icons {
+    font-size: 14px;
     padding: 10px;
+    padding-left: 16px;
     width: 116%;
 }
 
 
-.section3 {
-    background-color: white;
-    color: black;
-    width: 110%;
 
-}
 
 .section3 a {
     color: black;
     text-decoration: none;
     font-size: 15px;
+    padding-left: 7px;
 }
 
 .section3-icons:hover {
@@ -137,9 +163,9 @@
 }
 
 .parent .child2 {
-    flex: 8;
+    flex: 8.0;
     background-color: rgb(241, 238, 238);
-    margin-top: 40px;
+    margin-top: 30px;
     padding-top: 22px;
 
 
@@ -152,12 +178,13 @@
 .dashboard-icon {
     display: inline-flex;
     box-sizing: border-box;
+    margin-bottom: -20px;
 }
 
 .dashboard-icon h3 {
     font-size: 18px;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif; 
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
 }
 
 .dashboard-icon i {
@@ -260,11 +287,13 @@
 .item1 img {
     width: 350px;
 }
-.item1 h3{
-    font-weight: 100;
+
+.item1 h3 {
+    font-weight: 400;
 }
-.item2 h3{
-    font-weight: 100;
+
+.item2 h3 {
+    font-weight: 400;
 }
 
 .content-section2 .item2 {
@@ -274,11 +303,10 @@
 
 }
 
-.content-section4 .item2-table {
+.content-section2 .item2-table {
     border-collapse: collapse;
     width: 100%;
-    border: 1px ridge rgb(175, 171, 171);
-    background-color: #f2f2f2;
+    background-color: rgb(231, 225, 225);
 
 }
 
@@ -290,7 +318,7 @@ td {
 }
 
 .item2-table tr:nth-child(odd) {
-    background-color: #f2f2f2;
+    background-color: #fcfbfb;
 }
 
 
@@ -350,6 +378,7 @@ td {
     border-collapse: collapse;
     width: 100%;
     border: 1px ridge rgb(175, 171, 171);
+    background-color: rgb(231, 225, 225);
 
 }
 
@@ -359,25 +388,14 @@ td {
     padding: 8px;
 }
 
-.content-section4-table tr:nth-child(even) {
+.content-section4-table tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
 
-tr:hover {
+.content-section4-table tr:hover {
     background-color: white;
 }
 
-/* .content-section4 button {
-    width: 140px;
-    font-size: 16px;
-    margin: 10px 10px;
-    margin-left: 2px;
-    background-color: gray;
-    color: white;
-    border: ridge rgb(175, 171, 171);
-
-
-} */
 .content-section4 .button {
     background-color: #616161;
     border: none;
